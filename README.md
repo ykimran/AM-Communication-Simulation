@@ -81,7 +81,7 @@ Input RF SNR measures the known clean AM waveform against the generated channel 
 
 The output metric compares the recovered waveform with the known clean message after least-squares amplitude scaling. It includes noise, waveform distortion, and finite-record boundary effects. It should not be treated as a directly comparable RF SNR measurement or proof of a guaranteed receiver SNR improvement.
 
-The supplied report contains historical result figures and is pending permission for public publication. They have not been rerun here, and the original report's numerical claims are retained as source material rather than independently verified findings. The new seeded script and corrected spectrum scaling can produce different results and plots.
+The [supplied report](docs/source/Report.pdf) contains historical result figures. They have not been rerun here, and the original report's numerical claims are retained as source material rather than independently verified findings. The new seeded script and corrected spectrum scaling can produce different results and plots.
 
 ## Limitations and next steps
 
@@ -95,6 +95,6 @@ The files and equations were reviewed during repository preparation. MATLAB and 
 
 No open-source license has been selected. Confirm reuse permissions before redistributing the supplied academic materials.
 
-## Report publication
+## Project report
 
-The supplied report is not included yet. A copy with student ID headers removed has been prepared, but public publication still requires confirmation. Approval forms, cover sheets, and desktop screenshots are also excluded.
+[Download the supplied technical report](docs/source/Report.pdf), published unchanged with explicit confirmation on 7 November 2026. Approval forms, cover sheets, and desktop screenshots remain excluded.
