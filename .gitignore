@@ -1,0 +1,6 @@
+results/
+*.asv
+*.m~
+slprj/
+.DS_Store
+Thumbs.db

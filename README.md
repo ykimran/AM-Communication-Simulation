@@ -72,7 +72,6 @@ The same output filenames are overwritten on later runs. Generated results are e
 | [matlab/am_simulation.m](matlab/am_simulation.m) | Organized report-based entry point with saved outputs |
 | [matlab/original/report_3khz.m](matlab/original/report_3khz.m) | Unmodified supplied script: 25 kHz sampling, 3 kHz carrier, 10 dB target SNR |
 | [matlab/original/baseline_2khz.m](matlab/original/baseline_2khz.m) | Unmodified supplied script: 10 kHz sampling, 2 kHz carrier, 30 dB target SNR |
-| [docs/report.pdf](docs/report.pdf) | Supplied technical report with student ID headers removed |
 | [docs/methodology.md](docs/methodology.md) | Equations, filtering details, and measurement caveats |
 | [docs/provenance.md](docs/provenance.md) | Source mapping, changes, and validation status |
 
@@ -82,7 +81,7 @@ Input RF SNR measures the known clean AM waveform against the generated channel 
 
 The output metric compares the recovered waveform with the known clean message after least-squares amplitude scaling. It includes noise, waveform distortion, and finite-record boundary effects. It should not be treated as a directly comparable RF SNR measurement or proof of a guaranteed receiver SNR improvement.
 
-The [supplied report](docs/report.pdf) contains historical result figures. They have not been rerun here, and the original report's numerical claims are retained as source material rather than independently verified findings. The new seeded script and corrected spectrum scaling can produce different results and plots.
+The supplied report contains historical result figures and is pending permission for public publication. They have not been rerun here, and the original report's numerical claims are retained as source material rather than independently verified findings. The new seeded script and corrected spectrum scaling can produce different results and plots.
 
 ## Limitations and next steps
 
@@ -95,3 +94,7 @@ Potential extensions include comparing causal and offline receivers, sweeping SN
 The files and equations were reviewed during repository preparation. MATLAB and Octave were unavailable, so execution, figure export, and toolbox independence have not been runtime-verified. No new experimental measurements or benchmark claims are included.
 
 No open-source license has been selected. Confirm reuse permissions before redistributing the supplied academic materials.
+
+## Report publication
+
+The supplied report is not included yet. A copy with student ID headers removed has been prepared, but public publication still requires confirmation. Approval forms, cover sheets, and desktop screenshots are also excluded.
